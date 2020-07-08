@@ -1,0 +1,28 @@
+body{
+background-color: rgb(94, 18, 36);
+color:whitesmoke;
+font-family: Helvetica;
+}
+
+
+#failed{
+color:red;
+font-size: 30px;
+
+}
+
+button{
+background-color: olive;
+color:whitesmoke;
+border-radius: 10px;
+border:solid olivedrab 1px;
+padding:10px;
+margin-right: 20px;  
+margin-top: initial;
+}
+
+#player{
+margin-right: 15px;
+
+}
+

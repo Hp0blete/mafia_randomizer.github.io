@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+
+
+<head>
+  <title>Mafia Randomizer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+ <h1>Mafia Roulette</h1>
+ <input type="text" placeholder="Add player" id="player"></input>
+ <button onclick="addPlayer()" id="buttonAddPlayer">Add player</button>
+ <button onclick="removePlayer()">Remove Player</button>
+ <button onclick="reset()">Reset</button>
+ <br>
+ <br>
+  <form>
+   <input type="checkbox" name="jokerIG" id="jokerIG">
+   <label for="jokerIG">Joker en juego</label>
+   <br>
+   <input type="checkbox" name="cupidIG" id="cupidIG"></input>
+   <label for="cupidIG">Cupido en juego</label>
+   <br>
+   <input type="checkbox" name="papaIG" id="papaIG"></input>
+   <label for="papaIG">Papa en juego</label>
+   <br>
+   <input type="checkbox" name="medicoIG" id="medicoIG"></input>
+   <label for="medicoIG">Medico en juego</label>
+   <br>
+   <input type="checkbox" name="detectiveIG" id="detectiveIG"></input>
+   <label for="detectiveIG">Detective en juego</label>
+   <br>
+   <input type="checkbox" name="spyIG" id="spyIG"></input>
+   <label for="spyIG">Espia en juego</label>
+   <br>
+   <br>
+  </form>
+
+ <button onclick="randomizeRoles()">Randomize it uwu</button>
+
+ <p id="playerList">Players:</p>
+ <br>
+ <p id="failed"></p><div id="div1">
+
+
+
+
+
+
+ <script src="script.js"></script>
+</body>
+</html>
